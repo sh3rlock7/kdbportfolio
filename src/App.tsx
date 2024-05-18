@@ -1,9 +1,13 @@
 import './index.css'
+import {Navbar} from './components/Navbar'
+import { Intro } from './components/Intro';
+
 
 function App() {
   return (
     <>
-      <h1 className="bg-black p-2 text-6xl text-white text-center">My Portfolio</h1>
+      <Navbar />
+      <Intro />
     </>
   )
 }
