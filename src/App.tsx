@@ -1,6 +1,8 @@
 import './index.css'
 import {Navbar} from './components/Navbar'
 import { Intro } from './components/Intro';
+import { Skills } from './components/Skills';
+import {About} from './components/About';
 
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <>
       <Navbar />
       <Intro />
+      <About />
+      <Skills />
     </>
   )
 }
