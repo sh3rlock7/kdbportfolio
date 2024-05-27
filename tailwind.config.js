@@ -7,11 +7,17 @@ export default {
   theme: {
     extend:{
         colors: {
-          light :'#f7fbff'
+          light :'#f7fbff',
+          main: '#02061a'
         },
         backgroundImage:{
-          'intro': "url('/assets/IntroPick.jpg')"
-        }
+          'intro': "url('/assets/IntroPick.jpg')",
+          'skills': "url('/assets/skillbg.jpg')"
+        },
+        fontFamily:{
+          'Poppins': ["Poppins", "sans-serif"],
+          'Garamond': ["EB Garamond", "serif"]
+        },
     },
   },
   plugins: [],

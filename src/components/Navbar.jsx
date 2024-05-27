@@ -16,11 +16,11 @@ export const Navbar = ()  => {
 
   return (
       <div className="fixed h-[4.3rem] w-[100%] z-10 top-0 lg:flex lg:justify-end lg:content-around lg:bg-inherit right-0 ">
-        <div className={`navBar w-full justify-end text-right pt-2  pr-10 ${ color ? 'navbarBg' : '' } `}>
-          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1">Contact</button>
-          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1">About</button>
-          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1">Skills</button>
-          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1">Proyects</button>
+        <div className={`navBar w-full justify-end text-right pt-2  pr-10 ${ color ? 'bg-main' : '' } `}>
+          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1 hover:text-blue-600">Contact</button>
+          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1 hover:text-blue-600">About</button>
+          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1 hover:text-blue-600">Skills</button>
+          <button className="p-3 text-xl transition ease-in-out delay-75 duration-1 hover:text-blue-600">Proyects</button>
         </div>
       </div>
   
