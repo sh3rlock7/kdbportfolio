@@ -2,11 +2,11 @@ import profilePhoto from '../../assets/fototemp.png'
 
 export const About = () => {
   return (
-    <div className='flex justify-around bg-light font-Poppins'>
+    <div id='about' className='flex justify-around bg-light font-Poppins'>
       <div className='flex-1 '>
         <h1 className='text-6xl text-center mt-20 text-green-700 font-bold'>About me</h1>
-        <p className='text-lg ml-12 pt-10'> I’m a Frontend developer skilled on ReactJs ecosystem, Git and
-          Github. My journey into the world of web development began with a
+        <p className='text-lg ml-12 pt-10'> 
+          Hello there, my journey into the world of web development with a
           fascination for creating interactive and scalable web applications,
           Now i’m looking for a chance to join a team to continue improving my
           skill set, collaborate effectively, share innovative ideas, help the team

@@ -16,3 +16,15 @@ button{
 .navBar{
   transition: .3s ease-in;
 }
+#about {
+  scroll-margin-top: 65px;
+}
+
+
+#skills{
+  scroll-margin-top: 65px;
+}
+
+#contact {
+  scroll-margin-block: 20px;
+}

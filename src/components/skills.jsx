@@ -3,8 +3,8 @@ import React from 'react'
 
 export const Skills = () => {
   return (
-    <div className='flex flex-col  bg-slate-600 bg-skills bg-center bg-cover bg-no-repeat text-light'>
-        <div className='flex flex-col flex-1'>
+    <div  className='flex flex-col bg-slate-600 bg-skills bg-center bg-cover bg-no-repeat text-light'>
+        <div id='skills' className='flex flex-col flex-1'>
             <h1 className='text-5xl text-center font-semibold mt-12'> Tech Stack </h1>
         </div>
 

@@ -2,7 +2,7 @@
 
 export const Intro = () => {
   return (
-    <div className="flex h-screen w-screen bg-cover bg-center bg-no-repeat bg-intro font-Poppins">
+    <div className="flex h-screen w-auto bg-cover bg-center bg-no-repeat bg-intro font-Poppins">
       <div className='m-auto'>
         <h1 
           className='text-white text-center text-8xl'
