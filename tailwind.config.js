@@ -11,13 +11,16 @@ export default {
           main: '#02061a'
         },
         backgroundImage:{
-          'intro': "url('/assets/IntroPick.jpg')",
+          'intro': "url('/assets/compu3.jpg')",
           'skills': "url('/assets/skillbg.jpg')"
         },
         fontFamily:{
           'Poppins': ["Poppins", "sans-serif"],
           'Garamond': ["EB Garamond", "serif"]
         },
+        flex:{
+          '20':'1 1 25%'
+        }
     },
   },
   plugins: [],

@@ -36,20 +36,21 @@ export const Contact = () => {
     
 
   return (
-    <div id="contact" className="flex justify-between font-Poppins">
+    <div id="contact" className="lg:flex max-sm:flex-col justify-between font-Poppins">
         <div className="flex flex-col text-center">
             <h1 className="text-6xl p-6">Contact me</h1>
-            <p className="text-lg text-center font-Poppins p-6 ml-8">Hey there, if you are interested on develop the future together, feel free to contact me. I will reply within 24 hours</p>
+            <p className="text-lg text-center font-Poppins lg:p-6 lg:ml-8">Hey there, if you are interested on develop the future together, feel free to contact me. I will reply within 24 hours</p>
         </div>    
             <form 
-                className="flex flex-col mr-24 mt-2 p-5"
+                className="flex flex-col lg:mr-24 mt-2 p-5 font-Garamond"
                 onSubmit={handleSubmit}
             >
                 <div>
                     <input 
-                        className="border rounded-lg p-2 w-96 focus:outline-blue-500 shadow-lg" type="text" placeholder="name or company name"
+                        className="border rounded-lg p-2 max-sm:w-full lg:w-96 focus:outline-blue-500 shadow-lg" type="text" placeholder="name or company name"
                         name="name"
                         value={name}
+                        autoComplete="off"
                         required
                         onChange={e => setName(e.target.value)}
                     />
@@ -59,6 +60,7 @@ export const Contact = () => {
                     placeholder="Email"
                     value={email}
                     name="email" 
+                    autoComplete="off"
                     required 
                     onChange={e=> setEmail(e.target.value)}
                 />
@@ -68,6 +70,7 @@ export const Contact = () => {
                     placeholder="Type your message here"
                     name="message"
                     value={message}
+                    autoComplete="off"
                     required
                     onChange={e => setMessage(e.target.value)}
                 >

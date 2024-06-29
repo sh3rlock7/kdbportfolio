@@ -7,7 +7,6 @@
 
 
 
-
 button{
   color: #ededed;
 }
@@ -17,12 +16,12 @@ button{
   transition: .3s ease-in;
 }
 #about {
-  scroll-margin-top: 65px;
+  scroll-margin-top: 50px;
 }
 
 
 #skills{
-  scroll-margin-top: 65px;
+  scroll-margin-top: 50px;
 }
 
 #contact {
