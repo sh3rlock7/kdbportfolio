@@ -2,7 +2,7 @@ import profilePhoto from '../../assets/fototemp.png'
 
 export const About = () => {
   return (
-    <div id='about' className='lg:flex max-sm:flex-col justify-around bg-light font-Poppins scroll-mt-[65px]'>
+    <div id='about' className='lg:flex max-sm:flex-col justify-around bg-light font-Poppins max-sm:scroll-mt-96 md:scroll-mt-[65px]'>
       <div className='flex-1 md:p-8'>
         <h1 className='text-6xl text-center max-sm:mt-10 lg:mt-20 text-green-700 font-bold'>About me</h1>
         <p className='text-lg max-sm:text-left max-sm:m-2 lg:ml-12 max-sm:p-2 pt-10'> 

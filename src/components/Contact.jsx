@@ -38,7 +38,7 @@ export const Contact = () => {
   return (
     <div id="contact" className="lg:flex max-sm:flex-col justify-between font-Poppins">
         <div className="flex flex-col text-center">
-            <h1 className="text-6xl p-6">Contact me</h1>
+            <h1 className="text-green-700 font-bold text-6xl p-6">Contact me</h1>
             <p className="text-lg text-center font-Poppins lg:p-6 lg:ml-8">Hey there, if you are interested on develop the future together, feel free to contact me. I will reply within 24 hours</p>
         </div>    
             <form 
@@ -65,7 +65,7 @@ export const Contact = () => {
                     onChange={e=> setEmail(e.target.value)}
                 />
                 <textarea 
-                    className="border p-2 mt-4 mb-4 rounded-2xl h-52 resize-none focus:outline-blue-500 shadow-lg" 
+                    className="border p-2 mt-4 mb-4 rounded-2xl max-sm:h-28 max-md:h-52 resize-none focus:outline-blue-500 shadow-lg" 
                     rows={8} 
                     placeholder="Type your message here"
                     name="message"

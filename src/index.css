@@ -13,7 +13,7 @@ button{
 
 /* navbar animation scroll */
 .navBar{
-  transition: .3s ease-in;
+  transition: .5s ease-in;
 }
 #about {
   scroll-margin-top: 50px;
@@ -26,4 +26,23 @@ button{
 
 #contact {
   scroll-margin-block: 20px;
+}
+
+
+
+
+
+@media not all and (min-width: 640px){
+  #about {
+    scroll-margin-top: 280px;
+  }
+  
+  
+  #skills{
+    scroll-margin-top: 210px;
+  }
+  
+  #contact {
+    scroll-margin-block: 230px;
+  }
 }
