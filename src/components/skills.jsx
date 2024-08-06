@@ -1,4 +1,5 @@
 import React from 'react'
+import html5img from '/HTML5.png';
 
 
 export const Skills = () => {
@@ -11,7 +12,7 @@ export const Skills = () => {
         <div className='flex flex-row lg:flex-1 flex-wrap justify-between p-10 text-lg  font-bold bg-black bg-opacity-60'>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p>HTML 5</p>
-                <img className='h-24 p-3 m-auto' src="/HTML5.png" alt="" />
+                <img className='h-24 p-3 m-auto' src={html5img} alt="" />
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p>CSS3</p>
