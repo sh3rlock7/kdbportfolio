@@ -11,19 +11,19 @@ export const Skills = () => {
         <div className='flex flex-row lg:flex-1 flex-wrap justify-between p-10 text-lg  font-bold bg-black bg-opacity-60'>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p>HTML 5</p>
-                <img className='h-24 p-3 m-auto' src="./public/HTML5.png" alt="" />
+                <img className='h-24 p-3 m-auto' src="/HTML5.png" alt="" />
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p>CSS3</p>
-                <img className='h-24 P-4 m-auto'  src="./public/CSS3_LOGO.png" alt="" />
+                <img className='h-24 P-4 m-auto'  src="/CSS3_LOGO.png" alt="" />
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p className='lg:text-center'>Javascript</p>
-                <img className='h-24 rounded-[20%] p-3 m-auto' src="./public/JavaScript-logo.png" alt="" />
+                <img className='h-24 rounded-[20%] p-3 m-auto' src="/JavaScript-logo.png" alt="" />
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p >TypeScript</p>
-                <img  className='h-24 p-3 m-auto' src="./public/TYPESCRIPT_LOGO.png" alt="" />
+                <img  className='h-24 p-3 m-auto' src="/TYPESCRIPT_LOGO.png" alt="" />
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p>Tailwind</p>
@@ -31,15 +31,15 @@ export const Skills = () => {
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p className='text-center'>ReactJs</p>
-                <img  className='h-[6.5rem] p-3' src="./public/ReactLogo.png" alt="" />
+                <img  className='h-[6.5rem] p-3' src="/ReactLogo.png" alt="" />
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p className=''>Git</p>
-                <img className='h-24 p-3' src="../public/GITLOGO.png" alt="" />
+                <img className='h-24 p-3' src="/GITLOGO.png" alt="" />
             </div>
             <div className='text-center md:flex-20 lg:flex-none'>
                 <p className='lg:text-center'>Github</p>
-                <img  className='h-24 mt-1' src="../public/GITHUB_LOGO.png" alt="" />
+                <img  className='h-24 mt-1' src="/GITHUB_LOGO.png" alt="" />
             </div>
         </div>
     </div>

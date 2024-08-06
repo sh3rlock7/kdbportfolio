@@ -1,4 +1,4 @@
-import profilePhoto from '../../assets/fototemp.png'
+import profilePhoto from '/fototemp.png';
 
 export const About = () => {
   return (
