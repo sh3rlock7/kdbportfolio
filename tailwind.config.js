@@ -11,8 +11,8 @@ export default {
           main: '#02061a'
         },
         backgroundImage:{
-          'intro': "url('/assets/compu3.jpg')",
-          'skills': "url('/assets/skillbg.jpg')"
+          'intro': "url('./public/compu3.jpg')",
+          'skills': "url('./public/skillbg.jpg')"
         },
         fontFamily:{
           'Poppins': ["Poppins", "sans-serif"],
