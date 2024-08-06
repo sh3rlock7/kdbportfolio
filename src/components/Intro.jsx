@@ -5,7 +5,7 @@ export const Intro = () => {
     <div 
     id="intro"
       className=
-              "flex max-sm:h-96 md:h-screen lg:h-screen lg:w-auto bg-[length:100%_100%]   bg-center bg-no-repeat bg-[url(../../assets/compu3.jpg)] font-Poppins"
+              "flex max-sm:h-96 md:h-screen lg:h-screen lg:w-auto bg-[length:100%_100%]   bg-center bg-no-repeat bg-[url(/compu3.jpg)] font-Poppins"
     >
       <div className='flex flex-col bg-black bg-opacity-50 w-full h-full'>
         <h1 
