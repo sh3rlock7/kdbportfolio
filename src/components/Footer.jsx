@@ -1,4 +1,4 @@
-import CVDoc from '../../assets/Kevin De Bonis CV.pdf'
+import CVDoc from '../../public/Kevin De Bonis CV.pdf';
 
 
 export const Footer = () => {
@@ -7,7 +7,7 @@ export const Footer = () => {
        
           <a 
             className='cursor-pointer inline-block button outline-white bg-gradient-to-r from-green-600 to-blue-600 hover:from-[#700979] hover:to-[#792b81] rounded-lg mt-6 p-3' 
-            href={CVDoc}
+            href="{CVDoc}"
             download="Kevin De Bonis CV"
           >
             CV download
